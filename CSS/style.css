@@ -1,0 +1,23 @@
+a {
+  display: inline-block;
+}
+nav {
+  border-bottom: 0.5px solid #fff7;
+}
+aside {
+  position: fixed;
+  top: 62px;
+  bottom: 0;
+  left: 0;
+  width: 250px;
+  border-right: 0.5px solid #fff7;
+}
+main {
+  width: calc(100% - 250px);
+  margin-left: auto;
+  padding-top: 63px;
+}
+.active-link {
+  font-weight: 500;
+  color: #fff;
+}
